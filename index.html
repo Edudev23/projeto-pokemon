@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Listagem Pokémon - Semana do Zero ao Programador Contratado</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet" />
+
+	<link rel="stylesheet" href="./src/css/reset.css">
+	<link rel="stylesheet" href="./src/css/estilos.css">
+	<link rel="stylesheet" href="./src/css/scrollbar.css">
+</head>
+
+<body>
+	<header>
+		<a href="#">
+			<img src="./src/imagens/pokeball.png" alt="pokebola" class="logo" />
+		</a>
+		<button id="botao-alterar-tema">
+			<img src="./src/imagens/sun.png" alt="imagem do sol" class="imagem-botao" />
+		</button>
+	</header>
+	<main>
+		<ul class="listagem-pokemon">
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Bulbasaur</span>
+					<span>#001</span>
+				</div>
+
+				<img src="./src/imagens/bulbasaur.gif" alt="Bulbasaur" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo grama">Grama</li>
+					<li class="tipo venenoso">Venenoso</li>
+				</ul>
+
+				<p class="descricao">Há uma semente de planta em suas costas desde o dia que este Pókemon nasce. A
+					semente cresce lentamente.</p>
+			</li>
+
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Ivysaur</span>
+					<span>#002</span>
+				</div>
+
+				<img src="./src/imagens/ivysaur.gif" alt="Ivysaur" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo grama">Grama</li>
+					<li class="tipo venenoso">Venenoso</li>
+				</ul>
+
+				<p class="descricao">Quando o bulbo em suas costas cresce, parece perder a capacidade de ficar de pé em
+					suas patas traseiras.</p>
+			</li>
+
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Venusaur</span>
+					<span>#003</span>
+				</div>
+
+				<img src="./src/imagens/venusaur.gif" alt="Venusaur" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo grama">Grama</li>
+					<li class="tipo venenoso">Venenoso</li>
+				</ul>
+
+				<p class="descricao">Sua planta floresce quando está absorvendo energia solar. Ele permanece em
+					movimento para buscar a luz solar.</p>
+			</li>
+
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Charmander</span>
+					<span>#004</span>
+				</div>
+
+				<img src="./src/imagens/charmander.gif" alt="Charmander" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo fogo">Fogo</li>
+				</ul>
+
+				<p class="descricao">Tem preferência por coisas quentes. Quando chove, diz-se que o vapor jorra da ponta
+					de sua cauda.</p>
+			</li>
+
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Charmeleon</span>
+					<span>#005</span>
+				</div>
+
+				<img src="./src/imagens/charmeleon.gif" alt="Charmeleon" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo fogo">Fogo</li>
+				</ul>
+
+				<p class="descricao">Tem uma natureza bárbara. Na batalha, ele chicoteia sua cauda ardente e corta com
+					garras afiadas.</p>
+			</li>
+
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Charizard</span>
+					<span>#006</span>
+				</div>
+
+				<img src="./src/imagens/charizard.gif" alt="Charizard" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo fogo">Fogo</li>
+				</ul>
+
+				<p class="descricao">Ele cospe fogo que é quente o suficiente para derreter pedregulhos. Pode causar
+					incêndios florestais soprando chamas.</p>
+			</li>
+
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Squirtle</span>
+					<span>#007</span>
+				</div>
+
+				<img src="./src/imagens/squirtle.gif" alt="Squirtle" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo agua">Água</li>
+				</ul>
+
+				<p class="descricao">Quando ele retrai seu longo pescoço em sua concha, ele esguicha água com força
+					vigorosa.</p>
+			</li>
+
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Wartortle</span>
+					<span>#008</span>
+				</div>
+
+				<img src="./src/imagens/wartortle.gif" alt="Wartortle" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo agua">Água</li>
+				</ul>
+
+				<p class="descricao">É reconhecido como um símbolo de longevidade. Se sua concha tem algas, esse
+					Wartortle é muito antigo.</p>
+			</li>
+
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Blastoise</span>
+					<span>#009</span>
+				</div>
+
+				<img src="./src/imagens/blastoise.gif" alt="Blastoise" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo agua">Água</li>
+				</ul>
+
+				<p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada,
+					ele se retirará dentro de sua concha.</p>
+			</li>
+
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Caterpie</span>
+					<span>#010</span>
+				</div>
+
+				<img src="./src/imagens/caterpie.gif" alt="Caterpie" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo inseto">Inseto</li>
+				</ul>
+
+				<p class="descricao">Para proteção, ele libera um fedor horrível da antena em sua cabeça para afastar os
+					inimigos.</p>
+			</li>
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Metapod</span>
+					<span>#011</span>
+				</div>
+
+				<img src="./src/imagens/Metapod.gif" alt="Metapod" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo inseto">Inseto</li>
+				</ul>
+
+				<p class="descricao">Para proteção, ele libera um fedor horrível da antena em sua cabeça para afastar os
+					inimigos.</p>
+			</li>
+
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Butterfree</span>
+					<span>#012</span>
+				</div>
+
+				<img src="./src/imagens/Butterfree.gif" alt="Butterfree" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo inseto">Inseto</li>
+					<li class="tipo voador">Voador</li>
+				</ul>
+
+				<p class="descricao">Para proteção, ele libera um fedor horrível da antena em sua cabeça para afastar os
+					inimigos.</p>
+			</li>
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Diglett</span>
+					<span>#050</span>
+				</div>
+
+				<img src="./src/imagens/Diglett.gif" alt="Diglett" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo terrestre">Terrestre</li>
+				</ul>
+
+				<p class="descricao">Ele vive cerca de um metro no subsolo, onde se alimenta de raízes de plantas. Às
+					vezes aparece acima do solo.</p>
+			</li>
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Gengar</span>
+					<span>#094</span>
+				</div>
+
+				<img src="./src/imagens/Gengar.gif" alt="Gengar" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo fantasma">Fantasma</li>
+					<li class="tipo venenoso">Venenoso</li>
+				</ul>
+
+				<p class="descricao">Para roubar a vida de seu alvo, ele se esconde na sombra da presa e silenciosamente
+					espera por uma oportunidade.</p>
+			</li>
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Suicune</span>
+					<span>#0245</span>
+				</div>
+
+				<img src="./src/imagens/Suicune.gif" alt="Suicune" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo agua">Água</li>
+				</ul>
+
+				<p class="descricao">Suicune incorpora a compaixão de uma fonte de água pura. Ele atravessa a terra com
+					graciosidade. Este Pokémon tem o poder de purificar a água suja.</p>
+			</li>
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Celebi</span>
+					<span>#0251</span>
+				</div>
+
+				<img src="./src/imagens/Celebi.gif" alt="Celebi" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo psíquico">Psíquico</li>
+					<li class="tipo grama">Grama</li>
+				</ul>
+
+				<p class="descricao">Este Pokémon veio do futuro atravessando o tempo. Pensa-se que, enquanto Celebi
+					aparecer, um futuro brilhante nos espera.</p>
+			</li>
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Absol</span>
+					<span>#0359</span>
+				</div>
+
+				<img src="./src/imagens/Absol.gif" alt="Celebi" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo sombrio">Sombrio</li>
+
+				</ul>
+
+				<p class="descricao">Rápido como o vento, Absol corre pelos campos e montanhas. Seu chifre curvo em
+					forma de arco é extremamente sensível aos sinais de alerta de desastres naturais.</p>
+			</li>
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Darkrai</span>
+					<span>#0491</span>
+				</div>
+
+				<img src="./src/imagens/Darkrai.gif" alt="Darkrai" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo sombrio">Sombrio</li>
+
+				</ul>
+
+				<p class="descricao">Ele persegue pessoas e Pokémon de seu território, fazendo com que eles experimentem
+					um sono profundo e de pesadelo.</p>
+			</li>
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Zorua</span>
+					<span>#0570</span>
+				</div>
+
+				<img src="./src/imagens/Zorua.gif" alt="Zorua" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo sombrio">Sombrio</li>
+
+				</ul>
+
+				<p class="descricao">Ele se transforma nas formas dos outros para surpreendê-los. Aparentemente, muitas vezes se transforma em uma criança silenciosa.</p>
+			</li>
+			<li class="cartao-pokemon">
+				<div class="informacoes">
+					<span>Zoroark</span>
+					<span>#0571</span>
+				</div>
+
+				<img src="./src/imagens/Zoroark.gif" alt="Zoroark" class="gif" />
+
+				<ul class="tipos">
+					<li class="tipo sombrio">Sombrio</li>
+
+				</ul>
+
+				<p class="descricao">As histórias dizem que aqueles que tentaram pegar Zoroark foram presos em uma
+					ilusão e punidos.</p>
+			</li>
+
+
+
+		</ul>
+	</main>
+
+	<script src="./src/js/index.js"></script>
+</body>
+
+</html>
